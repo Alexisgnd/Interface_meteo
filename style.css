@@ -1,0 +1,23 @@
+/* Import Google font - Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Applique la police 'Open Sans' à tous les éléments de la page */
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Définition d'un fond personnalisé */
+.custom-bg {
+  background: #5372F0 !important;
+}
+
+/* Style au survol du bouton avec fond personnalisé */
+button.custom-bg:hover {
+  background: #4366ef !important;
+}
+
+/* Style pour les images dans la section 'current-weather' */
+.current-weather img {
+  max-width: 120px;
+  margin-top: -15px;
+}
