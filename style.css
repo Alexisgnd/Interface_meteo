@@ -7,17 +7,17 @@
 }
 
 /* Définition d'un fond personnalisé */
-.custom-bg {
+.fond-custom {
   background: #5372F0 !important;
 }
 
 /* Style au survol du bouton avec fond personnalisé */
-button.custom-bg:hover {
+button.fond-custom:hover {
   background: #4366ef !important;
 }
 
-/* Style pour les images dans la section 'current-weather' */
-.current-weather img {
+/* Style pour les images dans la section 'meteo-actuelle' */
+.meteo-actuelle img {
   max-width: 120px;
   margin-top: -15px;
 }
